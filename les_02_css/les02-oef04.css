@@ -1,0 +1,22 @@
+* {
+    font-family: Arial, sans-serif;
+}
+.section{
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+#red{
+    background-color: #e6a2a2;
+    color: #600;
+}
+#blue{
+    background-color: #a2c4e6;
+    color: #004080;
+}
+#green{
+    background-color: #a2e6c4;
+    color: #00663d;
+}

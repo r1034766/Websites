@@ -1,0 +1,30 @@
+.section{
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+#red{
+    background-color: #e6a2a2;
+    color: #600;
+    font-family: "Halant", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+#blue{
+    background-color: #a2c4e6;
+    color: #004080;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+#green{
+    background-color: #a2e6c4;
+    color: #00663d;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
