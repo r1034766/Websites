@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+tr, th, td {
+    border: 1px solid black;
+    height: 50px;
+    margin: 4px;
+    text-align: center;
+}
+.col23 {
+    width: 200px;
+}
+.col45 {
+    width: 100px;
+}
+.rood {
+    background-color: red;
+}
+.groen {
+    background-color: lightgreen;
+}
+.wit {
+    background-color: white;
+}

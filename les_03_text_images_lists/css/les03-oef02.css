@@ -1,0 +1,23 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 2em;
+    color: rgb(240, 76, 37);
+}
+hr {
+    height: 1px;
+    background-color: #0a2d53;
+}
+img {
+    border-radius: 5%;
+    margin: 15px;
+    float: left;
+    opacity: 0.5;
+}
+img:hover {
+    opacity: 1;
+    box-shadow: 5px 10px rgb(240, 76, 37);
+}

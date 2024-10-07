@@ -1,0 +1,21 @@
+hr {
+    border: 1px solid darkblue;
+}
+#entiteit {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+th, td {
+    padding: 15px;
+    border: 1px solid gray;
+}
+th {
+    background-color: darkblue;
+    color: white;
+}
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}

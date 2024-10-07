@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+h1 {
+    color: darkorange;
+    text-decoration: solid;
+}
+table {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    text-align: center;
+}
+tr, th, td {
+    border: 1px solid lightgray;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+tr {
+    height: 50px;
+}
+caption {
+    caption-side: bottom;
+    margin: 10px;
+}
+#TM {
+    width: 150px;
+}
+.nadruk {
+    font-weight: bold;
+}
+.start {
+    background-color: rgb(238, 116, 3);
+    color: white;
+    font-size: 32px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
