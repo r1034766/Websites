@@ -1,0 +1,41 @@
+
+body {
+    background: url(/img/kompas.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+    font-family: "Dancing Script", serif;
+    font-size:xx-large;
+    font-weight: 300;
+    font-style: normal;
+}
+.tekst {
+    color: white;
+}
+.foto {
+    position: relative;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+}
+.noord {
+    position: absolute;
+    left: 50%;
+    top: 20px;
+}
+.oost {
+    position: absolute;
+    top: 50%;
+    right: 40px;
+}
+.zuid {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+}
+.west {
+    position: absolute;
+    top: 50%;
+    left: 40px;
+}

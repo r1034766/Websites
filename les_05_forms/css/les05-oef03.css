@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+form {
+    width: 25%;
+}
+
+fieldset {
+    background-color: bisque;
+    text-align: left;
+    font-size: 12px;
+}
+legend {
+    background-color: maroon;
+    color: white;
+    padding: 5px;
+    font-size: 2em;
+}
+input[type="submit"] {
+    background-color: bisque;
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: large;
+}
+div {
+    padding-bottom: 10px;
+    width: 300px;
+}

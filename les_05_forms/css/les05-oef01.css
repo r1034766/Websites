@@ -1,0 +1,23 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.textvak {
+    background-color: lightblue;
+    padding: 10px;
+}
+.textvak:hover {
+    background-color: white;
+}
+form {
+    width: 40%;
+}
+div {
+    padding: 10px;
+}
+.verzenden {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+}

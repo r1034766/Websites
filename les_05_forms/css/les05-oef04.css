@@ -1,0 +1,38 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+form {
+    width: 20%;
+}
+label {
+
+    font-weight: 500;
+    font-size: 25px;
+}
+input {
+    box-shadow: 5px 5px lightgrey;
+    background-color: rgb(255, 81, 0);
+    padding: 10px;
+
+}
+select {
+    background-color: rgb(255, 81, 0);
+    box-shadow: 5px 5px lightgrey;
+    padding: 8px;
+    width: 200px;
+}
+div {
+    padding-bottom: 3px;
+}
+.container {
+    padding: 5px;
+}
+::placeholder {
+    color:lightgray;
+}
+input[type="submit"] {
+    text-align: center;
+    font-size: large;
+    color: white;
+    width: 200px;
+}
