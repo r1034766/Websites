@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+.col40 {
+    float: left;
+    padding: 15px;
+    width: 40%;
+}
+.col60 {
+    float: left;
+    padding: 15px;
+    width: 60%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.col25 {
+    float: left;
+    width: 25%;
+    padding: 15px;
+}
+@media screen and (max-width: 500px) {
+    .col25 {
+        width: 100%;
+    }
+    .col40 {
+        width: 100%;
+    }
+    .col60 {
+        width: 100%;
+    }
+}

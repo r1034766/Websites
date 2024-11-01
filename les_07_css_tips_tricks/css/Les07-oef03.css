@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.col30 {
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+.col70 {
+    float: left;
+    width: 70%;
+    padding: 15px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .col30 {
+        width: 100%;
+    }
+    .col70 {
+        width: 100%;
+    }
+}

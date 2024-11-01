@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+#header {
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    padding: 10px;
+}
+.nav {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+.col20 {
+    float: left;
+    width: 20%;
+}
+.col60 {
+    float: left;
+    width: 60%;
+}
+.row {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer {
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(231, 231, 231);
+}
+
+@media screen and (max-width: 500px) {
+    .col20 {
+        width: 100%;
+    }
+    .col60 {
+        width: 100%;
+    }
+}
